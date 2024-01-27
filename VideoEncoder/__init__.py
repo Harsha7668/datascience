@@ -30,8 +30,14 @@ if os.path.exists('VideoEncoder/config.env'):
 
 # Variables
 
+app = Client(
+    "my_bot",
+    api_id=API_ID, api_hash=API_ID,
+    bot_token=BOT_TOKEN
+)
+
 api_id = os.environ.get("API_ID")
-api_hash = os.environ.get("API_HASH")
+api_hash = os.environ.get("API_ID")
 bot_token = os.environ.get("BOT_TOKEN")
 
 database = os.environ.get("MONGO_URI")
