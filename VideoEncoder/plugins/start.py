@@ -84,7 +84,7 @@ For Owner:
 - /addchat and /addsudo
 - /rmsudo and /rmchat
 
-Supports: <a href='https://t.me/team_netflix'>click here</a>"""
+Supports: <a href='https://t.me/Sunrises24botupdates'>click here</a>"""
     await message.reply(text=msg, disable_web_page_preview=True, reply_markup=start_but)
 
 
