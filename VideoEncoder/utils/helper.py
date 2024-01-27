@@ -34,7 +34,7 @@ output = InlineKeyboardMarkup([
 
 start_but = InlineKeyboardMarkup([
     [InlineKeyboardButton("Sᴛᴀᴛꜱ 📊", callback_data="stats"), InlineKeyboardButton("Settings", callback_data="OpenSettings")],
-    [InlineKeyboardButton("Dᴇᴠᴇʟᴏᴘᴇʀ 🧑🏻‍💻", url="https://t.me/Sunrises_24"), InlineKeyboardButton("ʟᴜᴄʏ", url="https://t.me/lucy_filter_bot")]])
+    [InlineKeyboardButton("Dᴇᴠᴇʟᴏᴘᴇʀ 🧑🏻‍💻", url="https://t.me/Sunrises_24"), InlineKeyboardButton("Uᴘᴅᴀᴛᴇꜱ 📢", url="https://t.me/Sunrises24botupdates")]])
 
 
 async def check_chat(message, chat):
