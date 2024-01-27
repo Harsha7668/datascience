@@ -129,7 +129,7 @@ async def VideoSettings(event: Message, user_id: int):
             frame = 'Source'
 
         await event.edit(
-            text="Here's Your Video Settings<a href='https://graph.org/file/205c757cda25bd6553291.jpg'>:</a>",
+            text="Here's Your Video Settings<a href='https://telegra.ph/file/25c788ac5bc0a63040e6d.jpg'>:</a>",
             reply_markup=InlineKeyboardMarkup(
                 [
                     [InlineKeyboardButton(
@@ -222,7 +222,7 @@ async def AudioSettings(event: Message, user_id: int):
             channels = 'Source'
 
         await event.edit(
-            text="Here's Your Audio Settings<a href='https://graph.org/file/205c757cda25bd6553291.jpg'>:</a>",
+            text="Here's Your Audio Settings<a href='https://telegra.ph/file/25c788ac5bc0a63040e6d.jpg'>:</a>",
             reply_markup=InlineKeyboardMarkup(
                 [
                     [InlineKeyboardButton(f"Codec", callback_data="Watermark"), InlineKeyboardButton(
@@ -248,7 +248,7 @@ async def AudioSettings(event: Message, user_id: int):
 async def ExtraSettings(event: Message, user_id: int):
     try:
         await event.edit(
-            text="Here's Your Subtitle Settings<a href='https://graph.org/file/205c757cda25bd6553291.jpg'>:</a>",
+            text="Here's Your Subtitle Settings<a href='https://telegra.ph/file/25c788ac5bc0a63040e6d.jpg'>:</a>",
             reply_markup=InlineKeyboardMarkup(
                 [
                     [InlineKeyboardButton(
