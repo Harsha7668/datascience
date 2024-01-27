@@ -33,7 +33,7 @@ from os import popen
 from random import choice
 from urllib.parse import urlparse
 
-import cfscrape
+#import cfscrape
 import lk21
 import requests
 from bs4 import BeautifulSoup
