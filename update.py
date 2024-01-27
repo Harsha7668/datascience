@@ -22,8 +22,8 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s
                     handlers=[logging.FileHandler('log.txt'), logging.StreamHandler()],
                     level=logging.INFO)
 
-UPSTREAM_REPO = 'https://github.com/Aluval/Video-Encoder-BOT'
-UPSTREAM_BRANCH = 'beta'
+UPSTREAM_REPO = 'https://github.com/Aluval/VIDEOENCODER24BOT'
+UPSTREAM_BRANCH = 'SH24BOTS'
 
 if UPSTREAM_REPO is not None:
     if ospath.exists('.git'):
