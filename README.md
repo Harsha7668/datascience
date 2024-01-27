@@ -1,4 +1,4 @@
-![Encoder Bot](https://graph.org/file/49ab250d34f17b14ae559.jpg)
+![Video Encoder 24 Bot](https://telegra.ph/file/25c788ac5bc0a63040e6d.jpg)
 
 # ᴠɪᴅᴇᴏ ᴇɴᴄᴏᴅᴇʀ ʙᴏᴛ
 
@@ -49,8 +49,4 @@ To change the ffmpeg profile edit them in [ffmpeg.py](/VideoEncoder/utils/ffmpeg
 
 <h3> ─「 ᴄʀᴇᴅɪᴛs 」─
 </h3>
-
-- <b>[ᴍɪᴋᴇʏ](https://github.com/erotixe)  ➻  [ᴇᴠᴇʀʏᴛʜɪɴɢ](https://t.me/veldxd) </b>
- 
-<b>ᴀɴᴅ ᴀʟʟ [ᴛʜᴇ ᴄᴏɴᴛʀɪʙᴜᴛᴏʀs](https://telegram.me/team_netflix) ᴡʜᴏ ʜᴇʟᴩᴇᴅ ɪɴ ᴍᴀᴋɪɴɢ ʀᴇɴᴀᴍᴇ ʙᴏᴛ ᴜsᴇꜰᴜʟ & ᴩᴏᴡᴇʀꜰᴜʟ 🖤 </b>
 
