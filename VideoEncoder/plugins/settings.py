@@ -197,7 +197,7 @@ async def settings_viewer(bot: Client, event: Message):
     
     m = await db.get_metadata_w(user_id)
     if m:
-        metadata = '𝐒𝐔𝐍𝐑𝐈𝐒𝐄𝐒 𝐇𝐀𝐑𝐒𝐇𝐀 ✨'
+        metadata = 'SUNRISES-HARSHA-24'
     else:
         metadata = 'change session!'
     
