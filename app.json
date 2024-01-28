@@ -61,7 +61,7 @@
     },
     "LOG_CHANNEL": {
       "description": "for bot logs (user and group id will also work!",
-      "value": "-1002106632421",
+      "value": "sunrises24RipsDump",
       "required": true
     }
   },
