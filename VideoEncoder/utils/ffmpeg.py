@@ -187,7 +187,7 @@ async def encode(filepath, message, msg):
     # Metadata Watermark
     m = await db.get_metadata_w(message.from_user.id)
     if m:
-        metadata = '-metadata title=𝐄𝐍𝐂𝐎𝐃𝐄𝐃 𝐁𝐘 𝐒𝐔𝐍𝐑𝐈𝐒𝐄𝐒 𝐇𝐀𝐑𝐒𝐇𝐀 𝟐𝟒 -metadata:s:v title=𝐄𝐍𝐂𝐎𝐃𝐄𝐃 𝐁𝐘 𝐒𝐔𝐍𝐑𝐈𝐒𝐄𝐒 𝐇𝐀𝐑𝐒𝐇𝐀 𝟐𝟒 -metadata:s:a title=𝐄𝐍𝐂𝐎𝐃𝐄𝐃 𝐁𝐘 𝐒𝐔𝐍𝐑𝐈𝐒𝐄𝐒 𝐇𝐀𝐑𝐒𝐇𝐀 𝟐𝟒 -metadata:s:s title=𝐄𝐍𝐂𝐎𝐃𝐄𝐃 𝐁𝐘 𝐒𝐔𝐍𝐑𝐈𝐒𝐄𝐒 𝐇𝐀𝐑𝐒𝐇𝐀 𝟐𝟒'
+        metadata = '-metadata title=ENCODED BY SUNRISES HARSHA 24 -metadata:s:v title=ENCODED BY SUNRISES HARSHA 24 -metadata:s:a title=ENCODED BY SUNRISES HARSHA 24 -metadata:s:s title=ENCODED BY SUNRISES HARSHA 24'
     else:
         metadata = ''
 
