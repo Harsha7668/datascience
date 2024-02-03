@@ -178,14 +178,14 @@ async def encode(filepath, message, msg):
         preset = '-preset slow'
 
     # Some Optional Things
-   """ x265 = await db.get_hevc(message.from_user.id)
-    if x265:
-        video_opts = f'-profile:v main  -map 0:v? -map_chapters 0 -map_metadata 0'
-    else:
-        video_opts = f'{cabac} {reframe} -profile:v main  -map 0:v? -map_chapters 0 -map_metadata 0'
-        """
+    #x265 = await db.get_hevc(message.from_user.id)
+    #if x265:
+       # video_opts = f'-profile:v main  -map 0:v? -map_chapters 0 -map_metadata 0'
+    #else:
+       # video_opts = f'{cabac} {reframe} -profile:v main  -map 0:v? -map_chapters 0 -map_metadata 0'
+        
 
-       x265 = await db.get_hevc(message.from_user.id)
+    x265 = await db.get_hevc(message.from_user.id)
     if x265:
         video_opts = '-profile:v main10 -pix_fmt yuv420p10le -x265-params "internal-bit-depth=10" -map 0:v? -map_chapters 0 -map_metadata 0'
     else:
