@@ -12,7 +12,7 @@
   "env": {
     "BOT_TOKEN": {
       "description": "Your Bot token, Get it from @Botfather",
-      "value": "6493779973:AAFqoxj6bU-Q4hL1BLqstcs4ZMFFxZObc-M"
+      "value": "6493779973:AAFuBtcOS9D8FBhHMk7fcKCTZ9lsUlE84fw"
     },
     "OWNER_ID": {
       "description": "An integer of consisting of your owner ID",
@@ -40,11 +40,11 @@
     },
     "INDEX_URL":{
       "description": "Index url for drive uploads",
-      "value": "https://sunrisesharsha.sunriseseditsoffical249.workers.dev"
+      "value": "https://sunrisesharsha24rips.sunrisesharsha467.workers.dev"
     },
     "DRIVE_DIR":{
       "description": "(Optional) Temporary download directory to keep downloaded files.",
-      "value": "161TCoFX8hIsjguxLQEm7SbeNKHZzofF1"
+      "value": "1sGaYLz5jMGz4K_Ci0B68qtjc3MX5P_1k"
     },
     "DOWNLOAD_DIR": {
       "description": "Optional: start message of bot, use HTML parsemode format",
