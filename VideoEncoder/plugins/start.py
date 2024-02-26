@@ -11,7 +11,7 @@ async def start_message(app, message):
     if not check:
         return
     text = "Hey! I'm [VideoEncoder](https://telegra.ph/file/11379aba315ba245ebc7b.jpg). I can encode telegram files in x264.\n\nPress /help for my commands :)"
-    await message.reply(text=text, reply_markup=start_but)
+    await message.reply(text=text)
 
 
 @Client.on_message(filters.command('help'))
@@ -27,7 +27,7 @@ async def help_message(app, message):
 • /sthumb - Save Thumb
 • /dthumb - Clear Thumb.
 • /logs - check logs."""
-    await message.reply(text=msg, disable_web_page_preview=True, reply_markup=start_but)
+    await message.reply(text=msg)
 
 
 @Client.on_message(filters.command('vset'))
@@ -56,4 +56,4 @@ async def logs(app, message):
     if not check:
         return
     file = 'VideoEncoder/utils/logs.txt'
-    await message.reply_document(file, caption='#Logs')
+    await message.reply_document(caption='#Logs')
