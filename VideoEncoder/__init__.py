@@ -75,10 +75,10 @@ PROGRESS = """
 """
 
 
-if download_dir is not None and not os.path.isdir(download_dir):
+# Check Folder
+if not os.path.isdir(download_dir):
     os.makedirs(download_dir)
-    
-if encode_dir is not None and not os.path.isdir(encode_dir):
+if not os.path.isdir(encode_dir):
     os.makedirs(encode_dir)
 
 logging.basicConfig(
