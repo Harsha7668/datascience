@@ -11,7 +11,7 @@ async def start_message(app, message):
     if not check:
         return
     text = "Hey! I'm [VideoEncoder](https://telegra.ph/file/11379aba315ba245ebc7b.jpg). I can encode telegram files in x264.\n\nPress /help for my commands :)"
-    await message.reply(text=text, reply_markup=start_but, parse_mode="markdown")
+    await message.reply(text=text, reply_markup=start_but, parse_mode="markdownv2")
 
 
 @Client.on_message(filters.command('help'))
@@ -27,7 +27,7 @@ async def help_message(app, message):
 • /sthumb - Save Thumb
 • /dthumb - Clear Thumb.
 • /logs - check logs."""
-    await message.reply(text=msg, disable_web_page_preview=True, reply_markup=start_but, parse_mode="markdown")
+    await message.reply(text=msg, disable_web_page_preview=True, reply_markup=start_but, parse_mode="markdownv2")
 
 
 @Client.on_message(filters.command('vset'))
@@ -47,7 +47,7 @@ Doc thumb: `{'True' if (doc_thumb) else 'False'}`
 **Sudo Users**
 `{sudo_users}`
 '''
-    await message.reply(text=text, reply_markup=start_but, parse_mode="markdown")
+    await message.reply(text=text, reply_markup=start_but, parse_mode="markdownv2")
 
 
 @Client.on_message(filters.command('logs'))
