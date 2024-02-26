@@ -18,7 +18,7 @@ from pyrogram import Client, filters
 
 from .. import (audio, crf, doc_thumb, preset, resolution, sudo_users, tune,
                 upload_doc)
-from ..utils.utils import check_user, output, start
+from ..utils.utils import check_user, start_but
 
 
 @Client.on_message(filters.command('start'))
