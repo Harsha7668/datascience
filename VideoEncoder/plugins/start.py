@@ -19,7 +19,18 @@ from pyrogram import Client, filters
 from .. import (audio, crf, doc_thumb, preset, resolution, sudo_users, tune,
                 upload_doc)
 from ..utils.utils import check_user, output, start
+import aiogram
 
+async def main():
+    client = aiogram.Bot(bot_token='7148377788:AAHh1X89twcptpbu3UEx5MU7sdBc44P0MJc')
+    # Replace html with Markdown
+    text, entities = (await client.parser.parse(text, parse_mode='Markdown')).values()
+
+    print(text)
+    print(entities)
+
+if name == 'main':
+    main()
 
 @Client.on_message(filters.command('start'))
 async def start_message(app, message):
