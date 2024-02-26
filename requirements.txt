@@ -1,3 +1,5 @@
+
+aiogram
 pyrogram
 TgCrypto
 python-dotenv
