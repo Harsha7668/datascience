@@ -75,7 +75,7 @@ PROGRESS = """
 """
 
 
-if not os.path.isdir(download_dir):
+if download_dir is not None and not os.path.isdir(download_dir):
     os.makedirs(download_dir)
 
 if not os.path.isdir(encode_dir):
