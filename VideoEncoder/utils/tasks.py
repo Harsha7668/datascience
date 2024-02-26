@@ -24,7 +24,7 @@ from pyrogram.types import Message
 from .. import data, doc_thumb, download_dir, upload_doc
 from .ffmpeg import encode, get_duration, get_thumbnail
 from .progress import progress_for_pyrogram
-from .utils import output
+from .utils import start_but
 
 
 async def on_task_complete():
@@ -83,7 +83,7 @@ async def handle_upload(new_file, message, msg):
             new_file,
             thumb=thumb,
             caption=filename,
-            reply_markup=output,
+            reply_markup=start_but,
             parse_mode=None,
             progress=progress_for_pyrogram,
             progress_args=("Uploading ...", msg, c_time)
