@@ -40,11 +40,11 @@
     },
     "INDEX_URL":{
       "description": "Index url for drive uploads",
-      "value": "https://sunrisesharsha24rips.sunrisesharsha467.workers.dev"
+      "value": "https://sunrisesharsha.sunriseseditsoffical249.workers.dev/"
     },
     "DRIVE_DIR":{
       "description": "(Optional) Temporary download directory to keep downloaded files.",
-      "value": "1sGaYLz5jMGz4K_Ci0B68qtjc3MX5P_1k"
+      "value": "161TCoFX8hIsjguxLQEm7SbeNKHZzofF1"
     },
     "DOWNLOAD_DIR": {
       "description": "Optional: start message of bot, use HTML parsemode format",
