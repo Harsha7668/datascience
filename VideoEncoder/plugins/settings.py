@@ -114,6 +114,8 @@ async def settings_viewer(bot: Client, event: Message):
     r = await db.get_resolution(user_id)
     if r == 'OG':
         res = 'Source'
+    elif r == '2160':
+        res = '𝟸𝟷𝟼𝟶𝙿'   
     elif r == '1080':
         res = '𝟷𝟶𝟾𝟶𝙿'
     elif r == '720':
