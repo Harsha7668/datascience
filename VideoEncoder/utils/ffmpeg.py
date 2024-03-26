@@ -227,9 +227,7 @@ async def encode(filepath, message, msg):
     r = await db.get_resolution(message.from_user.id)
     w = await db.get_watermark(message.from_user.id)
     if r == 'OG':
-        watermark = ''
-    elif r == '2160':
-        watermark = '-vf scale=3840:2160'   
+        watermark = ''       
     elif r == '1080':
         watermark = '-vf scale=1920:1080'
     elif r == '720':
