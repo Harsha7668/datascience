@@ -195,8 +195,8 @@ async def callback_handlers(bot: Client, cb: CallbackQuery):
         elif a == 'aac':
             await db.set_audio(cb.from_user.id, audio='opus')
         elif a == 'opus':
-            await db.set_audio(cb.from_user.id, audio='alac')
-        elif a == 'alac':
+            await db.set_audio(cb.from_user.id, audio='eac3')
+        elif a == 'eac3':
             await db.set_audio(cb.from_user.id, audio='vorbis')
         else:
             await db.set_audio(cb.from_user.id, audio='dd')
