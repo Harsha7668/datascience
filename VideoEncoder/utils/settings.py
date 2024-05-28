@@ -174,8 +174,8 @@ async def AudioSettings(event: Message, user_id: int):
             audio = 'OPUS'
         elif a == 'vorbis':
             audio = 'VORBIS'
-        elif a == 'alac':
-            audio = 'ALAC'
+        elif a == 'eac3':
+            audio = 'EAC3'
         elif a == 'copy':
             audio = 'Source'
         else:
