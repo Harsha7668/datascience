@@ -148,8 +148,8 @@ async def settings_viewer(bot: Client, event: Message):
         audio = 'AAC'
     elif a == 'vorbis':
         audio = 'VORBIS'
-    elif a == 'alac':
-        audio = 'ALAC'    
+    elif a == 'eac3':
+        audio = 'EAC3'    
     elif a == 'opus':
         audio = 'OPUS'
     else:
