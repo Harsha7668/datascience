@@ -294,8 +294,8 @@ async def encode(filepath, message, msg):
             audio_opts = f'-c:a aac {sample} {bitrate} -map 0:a?'
         elif a == 'vorbis':
             audio_opts = f'-c:a libvorbis {sample} {bitrate} -map 0:a?'
-        elif a == 'alac':
-            audio_opts = f'-c:a alac {sample} {bitrate} -map 0:a?'
+        elif a == 'eac3':
+            audio_opts = f'-c:a eac3 {sample} {bitrate} -map 0:a?'
         elif a == 'opus':
             audio_opts = f'-c:a libopus -vbr on {sample} {bitrate} -map 0:a?'
         else:
