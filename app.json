@@ -12,7 +12,7 @@
   "env": {
     "BOT_TOKEN": {
       "description": "Your Bot token, Get it from @Botfather",
-      "value": "6493779973:AAFuBtcOS9D8FBhHMk7fcKCTZ9lsUlE84fw"
+      "value": "6917732521:AAGHQCp2IddDVRHk1wc26FSqEGvBi1Nfyb4"
     },
     "OWNER_ID": {
       "description": "An integer of consisting of your owner ID",
@@ -24,7 +24,7 @@
     },
     "MONGO_URI": {
       "description": "Paste your mongo db url",
-      "value": "mongodb+srv://SUNRISESWHALE:SUNRISESWHALE@cluster0.zybvck1.mongodb.net/?retryWrites=true&w=majority"
+      "value": "mongodb+srv://UPLOADXPRO24BOT:UPLOADXPRO24BOT@cluster0.hjfk60f.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
     },
     "SESSION_NAME":{
       "description": "Enter your DATABASE_NAME ",
@@ -61,7 +61,7 @@
     },
     "LOG_CHANNEL": {
       "description": "for bot logs (user and group id will also work!",
-      "value": "-1002106632421",
+      "value": "-1001973961950",
       "required": true
     }
   },
