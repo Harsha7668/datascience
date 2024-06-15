@@ -38,7 +38,7 @@ async def OpenSettings(event: Message, user_id: int):
             )
         )
     except FloodWait as e:
-        await asyncio.sleep(e.value)
+        await asyncio.sleep(e.x)
         await OpenSettings(event, user_id)
     except MessageNotModified:
         pass
@@ -156,7 +156,7 @@ async def VideoSettings(event: Message, user_id: int):
             )
         )
     except FloodWait as e:
-        await asyncio.sleep(e.value)
+        await asyncio.sleep(e.x)
         await VideoSettings(event, user_id)
     except MessageNotModified:
         pass
@@ -239,7 +239,7 @@ async def AudioSettings(event: Message, user_id: int):
             )
         )
     except FloodWait as e:
-        await asyncio.sleep(e.value)
+        await asyncio.sleep(e.x)
         await AudioSettings(event, user_id)
     except MessageNotModified:
         pass
@@ -268,7 +268,7 @@ async def ExtraSettings(event: Message, user_id: int):
         )
 
     except FloodWait as e:
-        await asyncio.sleep(e.value)
+        await asyncio.sleep(e.x)
         await ExtraSettings(event, user_id)
     except MessageNotModified:
         pass
