@@ -12,19 +12,19 @@
   "env": {
     "BOT_TOKEN": {
       "description": "Your Bot token, Get it from @Botfather",
-      "value": ""
+      "value": "6917732521:AAGHQCp2IddDVRHk1wc26FSqEGvBi1Nfyb4"
     },
     "OWNER_ID": {
       "description": "An integer of consisting of your owner ID",
-      "value": ""
+      "value": "6469754522"
     },
     "API_ID":{
       "description": "your app id, take it from my.telegram.org",
-      "value": ""
+      "value": "10811400"
     },
     "MONGO_URI": {
       "description": "Paste your mongo db url",
-      "value": ""
+      "value": "mongodb+srv://UPLOADXPRO24BOT:UPLOADXPRO24BOT@cluster0.hjfk60f.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
     },
     "SESSION_NAME":{
       "description": "Enter your DATABASE_NAME ",
@@ -32,19 +32,19 @@
     },
     "API_HASH":{
       "description": "your api hash, take it from my.telegram.org",
-      "value": ""
+      "value": "191bf5ae7a6c39771e7b13cf4ffd1279"
     },
     "EVERYONE_CHATS":{
       "description": " Chat identifier of the user who can't touch bot code.",
-      "value": ""
+      "value": "-1002129086580"
     },
     "INDEX_URL":{
       "description": "Index url for drive uploads",
-      "value": ""
+      "value": "https://sunrisesharsha.sunriseseditsoffical249.workers.dev/"
     },
     "DRIVE_DIR":{
       "description": "(Optional) Temporary download directory to keep downloaded files.",
-      "value": ""
+      "value": "161TCoFX8hIsjguxLQEm7SbeNKHZzofF1"
     },
     "DOWNLOAD_DIR": {
       "description": "Optional: start message of bot, use HTML parsemode format",
@@ -56,12 +56,12 @@
     },
     "SUDO_USERS": {
       "description": "Chat identifier of the sudo user.",
-      "value": "",
+      "value": "6469754522",
       "required": false
     },
     "LOG_CHANNEL": {
       "description": "for bot logs (user and group id will also work!",
-      "value": "",
+      "value": "-1001973961950",
       "required": true
     }
   },
