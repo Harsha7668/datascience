@@ -22,7 +22,7 @@ logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s
                     handlers=[logging.FileHandler('log.txt'), logging.StreamHandler()],
                     level=logging.INFO)
 
-UPSTREAM_REPO = 'https://github.com/Aluval/VIDEOENCODER24BOT'
+UPSTREAM_REPO = 'https://github.com/Harsha7668/datascience'
 UPSTREAM_BRANCH = 'SH24BOTS'
 
 if UPSTREAM_REPO is not None:
